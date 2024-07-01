@@ -1,4 +1,4 @@
-package ethereum
+package eth
 
 import (
 	"crypto/ecdsa"
@@ -16,9 +16,7 @@ import (
 // ZeroHash represents a hash code of zeros.
 const ZeroHash string = "0x0000000000000000000000000000000000000000000000000000000000000000"
 
-// ardanID is an arbitrary number for signing messages. This will make it
-// clear that the signature comes from the Ardan blockchain.
-// Ethereum and Bitcoin do this as well, but they use the value of 27.
+// ethID is an arbitrary number for signing messages.
 const ethID = 27
 
 // =============================================================================

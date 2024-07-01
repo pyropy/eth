@@ -1,6 +1,6 @@
-// Package ethereum higher level Go API's for writing applications and smart
+// Package eth higher level Go API's for writing applications and smart
 // contracts on the Ethereum blockchain.
-package ethereum
+package eth
 
 import (
 	"context"
@@ -18,7 +18,6 @@ import (
 // Set of networks supported by the smart package.
 const (
 	NetworkHTTPLocalhost = "http://localhost:8545"
-	NetworkLocalhost     = "zarf/ethereum/geth.ipc"
 	NetworkGoerli        = "https://rpc.ankr.com/eth_goerli"
 )
 
